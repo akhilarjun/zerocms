@@ -1,0 +1,30 @@
+{
+  "name": "zerocms",
+  "version": "0.0.1",
+  "description": "A headless CMS with zero config required to get you up and running",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilarjun/zerocms.git"
+  },
+  "keywords": [
+    "CMS",
+    "Headless CMS"
+  ],
+  "author": "Akhil Arjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhilarjun/zerocms/issues"
+  },
+  "homepage": "https://github.com/akhilarjun/zerocms#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.2",
+    "express": "^4.17.3",
+    "mongoose": "^5.13.14"
+  }
+}
